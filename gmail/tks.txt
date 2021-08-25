@@ -1,0 +1,2 @@
+Terimakasih
+https://seoneurons.com/configure-wordpress-to-send-emails-using-smtp/#configure-smtp-on-wordpress-without-using-a-plugin
