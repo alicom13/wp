@@ -1,0 +1,13 @@
+/*
+ * Carousel
+ */
+
+.gutentor-module-carousel-row .slick-slide {
+  margin:5px;
+}
+
+@media (max-width:575.98px){
+  .gutentor-module-carousel-row .slick-slide {
+    box-shadow :1px 1px #f1f1f1;
+  }
+}
