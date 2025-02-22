@@ -1,0 +1,49 @@
+/* Grid*/
+.grid-container,
+.grid-container-fluid{}
+.grid-row,
+.cwp-grid-column{
+	margin-left:0;
+	margin-right:0;
+}
+
+/*
+ * Menu
+ * */
+.cwp-menu-wrap{}
+#cwp-header-menu-sidebar,
+.cwp-primary-menu-wrapper,
+.cwp-secondary-menu-wrapper{
+	margin:0;
+	padding:0;
+}
+
+#cwp-header-wrap,
+#cwp-main,
+#cwp-footer-wrap{
+	margin:0 auto;
+	padding:0;
+}
+
+#cwp-header-wrap{}
+#cwp-main{
+	height:100vh;
+}
+#cwp-footer-wrap{}
+.cwp-dynamic-header,
+.cwp-top-header,
+.cwp-main-header,
+.cwp-bottom-header{}
+
+.cwp-body-main-wrap,
+.cwp-page,
+.cwp-content-wrapper,
+.cosmoswp-dynamic-page-content{
+	padding:0;
+	margin:0;
+}
+
+.cwp-footer-wrapper,
+.cwp-top-footer,
+.cwp-main-footer,
+.cwp-bottom-footer{}
