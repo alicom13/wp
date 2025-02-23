@@ -1,0 +1,32 @@
+// Adds a class with ID for single items
+.post-(ID) {}
+ 
+// Generic post claass added for single blog posts. 
+.post {}
+ 
+// Generic page class added when a single page is displayed. 
+.page {}
+ 
+// Generic attachment class added to attachment pages.
+.attachment {}
+ 
+// Adds a post type class e.g. type-post
+.type(post-type){}
+ 
+// Adds a class for post format if theme supports posts formats. E.g. format-standard 
+.format-(post-format){}
+ 
+// Added when an item has a featured image
+.has-post-thumbnail{}
+ 
+// Added when a sticky post is displayed
+.sticky {}
+ 
+// Generic class to display an entry
+.hentry {}
+ 
+// Classes with categories assigned to a post. E.g. category-news category-movies
+.category-(slug) {}
+ 
+// Classes with tags assigned to a post. e.g. tag-photofriday tag-tgif
+.tag-(slug) {}
