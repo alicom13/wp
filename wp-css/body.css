@@ -1,0 +1,95 @@
+// Added when a website is using a right-to-left language e.g. Arabic, Hebrew   
+.rtl {}
+ 
+// Added when home page is being displayed
+.home {}
+ 
+// Added when blog page is being displayed
+.blog {}
+ 
+// Added when an Archive page is being displayed
+.archive {}
+ 
+// Added when a date based archive is displayed
+.date {}
+ 
+// Added on search pages
+.search {}
+ 
+// Added when pagination is enabled
+.paged {}
+ 
+// Added when an attachment page is displayed
+.attachment {}
+ 
+// Added when a 404 error page is displayed
+.error404 {}
+ 
+// Added when a single post is dispayed includes post ID
+.single postid-(id) {}
+ 
+// Added when a single attachment is displayed. Includes attachment ID
+.attachmentid-(id) {}
+ 
+// Added when a single attachment is displayed. Includes attachment mime-type
+.attachment-(mime-type) {}
+ 
+// Added when an author page is displayed
+.author {}
+ 
+// Added when an author page is displayed. Includes author name. 
+.author-(user_nicename) {}
+ 
+// Added when a category page is displayed
+.category {}
+ 
+//Added when a category page is displayed. Includes category slug.
+.category-(slug) {}
+ 
+// Added when a tag page is displayed. 
+.tag {}
+ 
+// Added when a tag page is displayed. Includes tag slug.
+.tag-(slug) {}
+ 
+// Added when a parent page is displayed. 
+.page-parent {}
+ 
+// Added when a child page is displayed. Includes parent page ID. 
+.page-child parent-pageid-(id) {}
+ 
+// Added when a page is displayed using page template. Includes page template file name. 
+.page-template page-template-(template file name) {}
+ 
+// Added when search results are displayed. 
+.search-results {}
+ 
+// Added when search returns no results. 
+.search-no-results {}
+ 
+// Added when a logged in user is detected. 
+.logged-in {}
+ 
+// Added when a paginated page is displayed. Includes page number. 
+.paged-(page number) {}
+ 
+// Added when a paginated single item is displayed. Includes page number. 
+.single-paged-(page number) {}
+ 
+// Added when a paged page type is displayed. Includes page number. 
+.page-paged-(page number) {}
+ 
+// Added when a paged category page is displayed. Includes page number. 
+.category-paged-(page number) {}
+ 
+// Added when a paged tag page is displayed. Includes page number. 
+.tag-paged-(page number) {}
+ 
+//Added when a paged date based archive page is displayed. Includes page number. 
+.date-paged-(page number) {}
+ 
+// Added when a paged author page is displayed. Includes page number. 
+.author-paged-(page number) {}
+ 
+// Added when a paaged search page is displayed. Includes page number. 
+.search-paged-(page number) {}
