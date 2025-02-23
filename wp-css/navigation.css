@@ -1,0 +1,20 @@
+// Class for Current Page
+.current_page_item{}
+ 
+// Class for Current Category
+.current-cat{} 
+ 
+// Class for any other current Menu Item
+.current-menu-item{} 
+ 
+ // Class for a taxonomies
+.menu-item-type-(taxonomy){}
+ 
+// class to distinguish post types. 
+.menu-item-type-(post_type){}
+ 
+// Class for any custom item that you added
+.menu-item-type-custom{} 
+ 
+// Class for the Home Link
+.menu-item-home{}
