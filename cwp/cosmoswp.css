@@ -47,3 +47,101 @@
 .cwp-top-footer,
 .cwp-main-footer,
 .cwp-bottom-footer{}
+
+
+/*Banner*/
+.cwp-has-banner .cwp-blog,
+.cwp-has-banner .cwp-body-main-wrap,
+.cwp-has-banner .cwp-single-post {
+    padding-top: 0;
+}
+
+.cwp-has-banner.gutentor-active .cwp-body-main-wrap {
+    padding-top: 0;
+    display: block;
+}
+
+.cwp-has-banner .cwp-banner {
+    position: relative;
+    z-index: 1
+}
+
+.cwp-has-banner .cwp-banner.cwp-enable-overlay img {
+    z-index: -1
+}
+
+.cwp-has-banner .cwp-banner.cwp-enable-overlay:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    z-index: -1;
+}
+
+.cwp-has-banner .cwp-banner.cwp-enable-overlay iframe {
+    position: relative;
+    z-index: -1
+}
+
+.cwp-has-banner .cwp-banner .wp-custom-header {
+    height: 100%;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0
+}
+
+.cwp-has-banner .cwp-banner .wp-custom-header .wp-custom-header-video-button {
+    display: none
+}
+
+.cwp-has-banner .cwp-banner iframe,.cwp-has-banner .cwp-banner video {
+    width: 100%;
+    height: 100%
+}
+
+.cwp-has-banner .cwp-banner video {
+    object-fit: cover;
+    z-index: -1;
+    position: relative
+}
+
+.cwp-has-banner .cwp-banner .has-bg-color,.cwp-has-banner .cwp-banner .has-bg-image,
+.cwp-has-banner .cwp-banner .has-normal-image,.cwp-has-banner .cwp-banner .has-video {
+    position: absolute;
+    width: 100%;
+    z-index: 1
+}
+
+.cwp-has-banner .cwp-banner.cwp-content-position-top .has-bg-color,
+.cwp-has-banner .cwp-banner.cwp-content-position-top .has-bg-image,
+.cwp-has-banner .cwp-banner.cwp-content-position-top .has-normal-image,
+.cwp-has-banner .cwp-banner.cwp-content-position-top .has-video {
+    top: 50px;
+    left: 0
+}
+
+.cwp-has-banner .cwp-banner.cwp-content-position-center .has-bg-color,.cwp-has-banner .cwp-banner.cwp-content-position-center .has-bg-image,
+.cwp-has-banner .cwp-banner.cwp-content-position-center .has-normal-image,.cwp-has-banner .cwp-banner.cwp-content-position-center .has-video {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
+}
+
+.cwp-has-banner .cwp-banner.cwp-content-position-bottom .has-bg-color,
+.cwp-has-banner .cwp-banner.cwp-content-position-bottom .has-bg-image,
+.cwp-has-banner .cwp-banner.cwp-content-position-bottom .has-normal-image,
+.cwp-has-banner .cwp-banner.cwp-content-position-bottom .has-video {
+    bottom: 50px;
+    left: 0
+}
+
+.cwp-has-banner .cwp-banner .breadcrumbs {
+    margin-bottom: 0;
+    background: 0 0;
+    padding: 0
+}
