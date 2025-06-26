@@ -1,0 +1,7 @@
+.cwp-has-banner .cwp-banner,
+.cwp-has-banner .cwp-banner .has-bg-color,
+.cwp-has-banner .cwp-banner .has-bg-image,
+.cwp-has-banner .cwp-banner .has-normal-image,
+.cwp-has-banner .cwp-banner .has-video {
+    position: static;
+}
