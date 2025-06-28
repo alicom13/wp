@@ -20,6 +20,12 @@ WP CONTENT
 */
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/blog/wp-content' );
 define( 'WP_CONTENT_URL', 'https://example/blog/wp-content' );
+// atau
+// Define the new directory path and URL
+define('CONTENT_FOLDER', 'your_folder_name');
+define('WP_CONTENT_DIR', ABSPATH . CONTENT_FOLDER);
+define('WP_CONTENT_URL', 'http://example.com/' . CONTENT_FOLDER);
+
 // Moving plugin folder
 define( 'WP_PLUGIN_DIR', dirname(__FILE__) . '/blog/wp-content/plugins' );
 define( 'WP_PLUGIN_URL', 'https://example/blog/wp-content/plugins' );
