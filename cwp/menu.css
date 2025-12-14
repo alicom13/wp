@@ -1,0 +1,12 @@
+/* PRIMARY - Main header navigation */
+.cwp-main-header .navigation:first-child ul,
+.cwp-main-header > .navigation ul,
+.cwp-main-header .cwp-menu-wrapper .navigation ul {
+    /* Primary menu styling */
+}
+
+/* SECONDARY - Top/Bottom header navigation */
+.cwp-top-header .navigation ul,
+.cwp-bottom-header .navigation ul {
+    /* Secondary menu styling */
+}
