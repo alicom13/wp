@@ -1,0 +1,24 @@
+/* Link text secondary menu */
+.cwp-top-header .navigation ul li a,
+.cwp-bottom-header .navigation ul li a {
+    /* Custom styling untuk text/link */
+    font-family: 'Your Font', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+    text-transform: none;
+    letter-spacing: 0.5px;
+}
+
+/* Hover state */
+.cwp-top-header .navigation ul li a:hover,
+.cwp-bottom-header .navigation ul li a:hover {
+    color: #275cf6;
+}
+
+/* Active/current page */
+.cwp-top-header .navigation ul li.current-menu-item a,
+.cwp-bottom-header .navigation ul li.current-menu-item a {
+    color: #275cf6;
+    font-weight: 600;
+}
