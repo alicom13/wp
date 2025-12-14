@@ -1,9 +1,22 @@
+/*
 .cwp-dynamic-header .navigation ul li a target SEMUA menu di header, baik primary maupun secondary.
-Karena .cwp-dynamic-header adalah container utama yang mencakup:
+.cwp-dynamic-header adalah container utama yang mencakup:
 .cwp-top-header (secondary menu)
 .cwp-main-header (primary menu)
 .cwp-bottom-header (bisa primary/secondary)
 
+/* SUBMENU CONTAINER */
+.navigation ul li .sub-menu
+.navigation ul li .children
+
+/* SUBMENU ITEMS */
+.navigation ul li .sub-menu li
+.navigation ul li .children li
+
+/* SUBMENU LINKS */
+.navigation ul li .sub-menu li a
+.navigation ul li .children li a
+*/
 
 /* PRIMARY - Main header navigation */
 .cwp-main-header .navigation:first-child ul,
