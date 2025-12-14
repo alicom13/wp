@@ -1,0 +1,28 @@
+/* Link text primary menu */
+.cwp-main-header .navigation:first-child ul li a,
+.cwp-main-header > .navigation ul li a,
+.cwp-main-header .cwp-menu-wrapper .navigation ul li a {
+    /* Custom styling untuk text/link */
+    font-family: 'Your Font', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Hover state */
+.cwp-main-header .navigation:first-child ul li a:hover,
+.cwp-main-header > .navigation ul li a:hover,
+.cwp-main-header .cwp-menu-wrapper .navigation ul li a:hover {
+    color: #275cf6;
+    text-decoration: underline;
+}
+
+/* Active/current page */
+.cwp-main-header .navigation:first-child ul li.current-menu-item a,
+.cwp-main-header > .navigation ul li.current-menu-item a,
+.cwp-main-header .cwp-menu-wrapper .navigation ul li.current-menu-item a {
+    color: #275cf6;
+    font-weight: 700;
+}
