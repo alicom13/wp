@@ -1,0 +1,66 @@
+/* MOBILE MENU SIDEBAR */
+.cwp-header-menu-sidebar {
+    border: 3px solid #e74c3c; /* Border merah tebal di container */
+    background: #fff;
+}
+
+/* Menu items di mobile sidebar */
+.cwp-header-menu-sidebar .navigation ul li {
+    border-bottom: 1px solid #eee; /* Garis pemisah antar item */
+}
+
+/* Links di mobile sidebar */
+.cwp-header-menu-sidebar .navigation ul li a {
+    display: block;
+    padding: 12px 15px;
+    border-left: 4px solid #3498db; /* Garis biru di kiri */
+    margin: 2px 0;
+}
+
+/* Active item */
+.cwp-header-menu-sidebar .navigation ul li.current-menu-item a {
+    border-left: 4px solid #2ecc71; /* Garis hijau untuk active */
+    background: #f0f8ff;
+}
+
+/* Submenu di mobile sidebar */
+.cwp-header-menu-sidebar .navigation ul li .sub-menu {
+    border: 1px solid #f39c12; /* Border orange di submenu */
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+/* OFFCANVAS MENU SIDEBAR */
+.cwp-offcanvas-sidebar {
+    border: 3px solid #9b59b6; /* Border ungu tebal */
+    background: #fff;
+}
+
+/* Menu items di offcanvas */
+.cwp-offcanvas-sidebar .navigation ul li a {
+    padding: 10px 20px;
+    border: 1px solid #ddd; /* Border di setiap link */
+    border-radius: 5px;
+    margin: 5px 0;
+    display: block;
+}
+
+/* Hover state */
+.cwp-offcanvas-sidebar .navigation ul li a:hover {
+    border-color: #3498db; /* Border biru saat hover */
+    background: #ebf5fb;
+}
+
+/* Active item */
+.cwp-offcanvas-sidebar .navigation ul li.current-menu-item a {
+    border: 2px solid #e74c3c; /* Border merah tebal untuk active */
+    background: #fddede;
+}
+
+/* Submenu */
+.cwp-offcanvas-sidebar .navigation ul li .sub-menu {
+    border-left: 2px dashed #f39c12; /* Border orange putus-putus */
+    margin-left: 20px;
+    padding-left: 10px;
+}
