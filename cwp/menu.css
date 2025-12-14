@@ -1,3 +1,10 @@
+.cwp-dynamic-header .navigation ul li a target SEMUA menu di header, baik primary maupun secondary.
+Karena .cwp-dynamic-header adalah container utama yang mencakup:
+.cwp-top-header (secondary menu)
+.cwp-main-header (primary menu)
+.cwp-bottom-header (bisa primary/secondary)
+
+
 /* PRIMARY - Main header navigation */
 .cwp-main-header .navigation:first-child ul,
 .cwp-main-header > .navigation ul,
